@@ -1,0 +1,8 @@
+sudo ../cpplint.py --extensions=h,hpp,cpp $( find . -name *.h -or -name *.hpp -or -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
+Done processing ./include/PIDController.h
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
+Done processing ./app/main.cpp
+Done processing ./app/PIDController.cpp
+Total errors found: 0
+
