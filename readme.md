@@ -1,5 +1,5 @@
 # C++ Boilerplate
-[![Build Status](https://travis-ci.org/Learner1729/PID_Controller.svg?branch=master)](https://travis-ci.org/Learner1729/PID_Controller)[![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
+[![Build Status](https://travis-ci.org/Learner1729/PID_Controller.svg?branch=master)](https://travis-ci.org/Learner1729/PID_Controller)[![Coverage Status](https://coveralls.io/repos/github/Learner1729/PID_Controller/badge.svg)](https://coveralls.io/github/Learner1729/PID_Controller)
 ---
 
 ## Overview
