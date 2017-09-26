@@ -40,5 +40,14 @@ PIDController::~PIDController() {
  */
 float PIDController::compute(float desiredVelocity, float currentVelocity) {
   // Code to compute the velocity
-  return 1;
+  double error = desiredVelocity - currentVelocity;
+  double P_err = Kp * error;
+  iterm += error * timeDifference;
+  double I_err = Ki * iterm;
+  double derivative = (error - previousError) / timeDifference;
+  double D_err = Kd * derivative;
+  double output = P_err + I_err + D_err;
+  previousError = error;
+  currentVelocity = currentVelocity + output;
+  return currentVelocity;
 }
