@@ -19,7 +19,7 @@ TEST(PIDControllerTest, initializationValues) {
 TEST(PIDControllerTest, computeFunction) {
   PIDController control;
   EXPECT_FLOAT_EQ(0.00, control.compute(0, 0));
-  EXPECT_FLOAT_EQ(5.072, control.compute(5, 4));
-  EXPECT_FLOAT_EQ(6.91, control.compute(7, 8));
+  EXPECT_FLOAT_EQ(4.072, control.compute(5, 4));
+  EXPECT_FLOAT_EQ(7.91, control.compute(7, 8));
   EXPECT_FLOAT_EQ(0.02, control.compute(0, 0));
 }
